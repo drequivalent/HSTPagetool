@@ -1,0 +1,85 @@
+HSTPagetool
+==========================================================================
+
+A tool for handling Homestuck Translation Project repository. Allows for
+reading, writing, deleteng and moving pages between acts, as well as
+creating and deleting the acts themselves. Can also get pages from MS Paint
+Adventures website. 
+In order for it to work, you must be in the root directory of the
+repository.
+
+Инструмент для работы с репозиторием Homestuck Translation Project.
+Позвояет производить чтение, запись, удаление и перемещение страниц между
+актами, а также создание и удаление самих актов. Также есть возможность
+взять произвольную страницу с сайта MS Paint Adventures.
+Для работы, необходимо находиться в корне репозитория.
+
+==========================================================================
+
+Usage: hstpagetool [-h] command arguments
+
+optional arguments:
+  -h, --help            show this help message and exit
+
+Commands:
+    rm                  remove the page
+    trim                remove all pages starting with specified number
+    slice               move the pages starting with specified number to a
+                        new act
+    mv                  move the specified pages to specified act
+    get                 get the page from MS Paint Adventures website to 
+                        the specified act
+    read                read the content of the specified field of the
+                        page
+    write               write the content of the specified field to the
+                        specified page
+    where               get an absolute path to the specified page
+    act                 get an act of the specified page
+    mkact               make a new act
+    rmact               remove an act
+    ls                  list the whole repository or the specified act
+
+==========================================================================
+
+Синтаксис: hstpagetool [-h] команда аргументы
+
+optional arguments:
+  -h, --help            показать краткую справку и завершиться
+
+Commands:
+    rm                  удалить страницу
+    trim                удалить все страницы, начиная с обозначенной
+    slice               переместить все страницы, начиная с обозначенной,
+                        в новый акт
+    mv                  переместить обозначенные страницы в обозначенный
+                        акт
+    get                 взять страницу с сайта MS Paint Adventures и
+                        поместить ее в обозначенный акт
+    read                прочитать содержание обозначенного поля
+                        обозначенной страницы
+    write               записать содержание обозначенного поля в 
+                        обозначенную страницу
+    where               показать абсолютный путь к обозначенной странице
+    act                 показать акт обозначенной страницы
+    mkact               создать акт
+    rmact               удалить акт
+    ls                  перечислить все страницы в репозитории или
+                        обозначенном акте
+
+==========================================================================
+
+COPYRIGHT NOTICE: MS Paint Adventures website and Homestuck belong to
+Andrew Hussie and MS Paint Adventures team. The author of this program 
+makes absolutely no profit from it, and distributes it freely. Anyone
+can grab it and do pretty much what they desire with it. within pretty
+broad limits of the GPL license.
+Made with love by dr. Equivalent the Incredible II and the Homestuck 
+(Russian) Translation Project.
+--------------------------------------------------------------------------
+Все права на сайт MS Paint Adventures и Homestuck принадлежат Эндрю Хасси
+и команде MS Paint Adventures. Автор данной программы не получает никакой
+прибыли от нее, и распространяет ее свободно. Любой желающий может взять
+ее и сотворить с ней что душе угодно в довольно свободных рамках лицензии
+GPL.
+dr. Equivalent the Incredible II сделал эту программу с любовью для
+Перевода интерактивного вэб-комикса Homestuck (на русский язык)
